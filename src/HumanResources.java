@@ -20,10 +20,6 @@ public class HumanResources {
         staffsList.add(new Manager("M001", "Nguyen Thi Be", 24, 5.0, "16/07/2022", "Marketing", 125, "Business Leader"));
         staffsList.add(new Manager("H001", "Trinh Minh Cao", 35, 4.5, "16/07/2022", "Personnel", 125, "Project Leader"));
         
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
         do{
             System.out.println("1. Display staff list");
             System.out.println("2. Display department list.");

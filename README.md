@@ -1,4 +1,4 @@
-### Description: Human resource management application
+### Hi, I’m LONG this is Human resource management application
 
 Display: Simple console interface
 

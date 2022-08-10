@@ -1,21 +1,41 @@
-## Getting Started
+### Description: Human resource management application
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Display: Simple console interface
 
-## Folder Structure
+Use OOP knowledge and java language
 
-The workspace contains two folders by default, where:
+## 1.project HumanResources includes file:
+- The Employee.java file is the definition for the employee class
+- File Manager.java is the definition for the management class
+- The Department.java file is the definition for the department class
+- File HumanResources.java is the class containing the main thread of the program
+- The ICalculator file is an interface containing the salary calculation function
+- File display is an interface containing the display function
+- Interface Design: Simple console interface
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 2.basic function
+- Display the list of existing employees in the company
+- Show departments in the company
+- Show employees by department
+- Add new employees to the company includes 2 types : add regular staff and More staff is management level (with more positions)
+- Search for employee information by name or employee code
+- Display payroll of company-wide employees
+- Display employee payroll in ascending order
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 3.Salary formula:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Employee: Salary coefficient * 3,000,000 + overtime hours * 200,000
 
-## Dependency Management
+Manager: Salary coefficient * 5,000,000 + responsibility salary
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Responsible wage:
+
+Business Leader = 8,000,000
+
+Project Leader = 5,000,000
+
+Technical Leader = 6,000,000
+
 
 
 
